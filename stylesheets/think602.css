@@ -1,51 +1,10 @@
-/*******************************************************************************
-Small Device Styles
-*******************************************************************************/
 
-@media screen and (max-width: 480px) {
-  body {
-    font-size:14px;
-  }
+#contact-btn {
+  width:20%;
+}
 
-  .inner {
-    min-width: 320px;
-    max-width: 480px;
-  }
-
-  #project_title {
-    font-size: 32px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 21px;
-  }
-
-  h4 {
-    font-size: 18px;
-  }
-
-  h5 {
-    font-size: 14px;
-  }
-
-  h6 {
-    font-size: 12px;
-  }
-
-  code, pre {
-    min-width: 320px;
-    max-width: 480px;
-    font-size: 11px;
-  }
-
+#services-view-work-btn {
+  width: 90%;
 }
 
 body {
@@ -53,11 +12,16 @@ body {
   padding-bottom: 60px;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* Custom container */
 .container {
   margin: 0 auto;
   max-width: 1000px;
 }
+
 .container > hr {
   margin: 40px 0;
 }
@@ -67,9 +31,46 @@ body {
   text-align: center;
 }
 
+.centered {
+  text-align: center;
+}
+
+
+/*******************************************************************************
+    team
+*******************************************************************************/
+
+.people {
+  width: 90%;
+  margin: 0% auto;
+}
+
+.person {
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+.person .picture {
+  width: 42%;
+  float: left;
+}
+
+.person .info {
+  float: right;
+  width: 51%;
+  overflow: visible;
+  padding-left: 2%;
+}
+
+
+/*******************************************************************************
+    home page
+*******************************************************************************/
+
 /* Main marketing message and sign up button */
 .jumbotron {
   margin: 50px 0;
+  margin-bottom: 30px;
   text-align: center;
 }
 .jumbotron h1 {
@@ -112,24 +113,63 @@ body {
 .navbar .nav li a {
   font-weight: bold;
   text-align: center;
-  /*border-left: 1px solid rgba(255,255,255,.75);*/
-  /*border-right: 1px solid rgba(0,0,0,.1);*/
 }
-.navbar .nav li:first-child a {
-  /*border-left: 0;*/
-  /*border-radius: 3px 0 0 3px;*/
-}
+
 .navbar .nav li:last-child a {
   border-right: 0;
   border-radius: 0 3px 3px 0;
 }
 
-.fluid-row-trim {
-  width: 94%;
-  margin: 0 auto;
-}
 
-.span-padding {
-  padding-top: 10px;
-  padding-bottom: 10px;
+@media screen and (max-width: 480px) {
+  body {
+    font-size:14px;
+  }
+
+  .inner {
+    min-width: 320px;
+    max-width: 480px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+
+  code, pre {
+    min-width: 320px;
+    max-width: 480px;
+    font-size: 11px;
+  }
+
+  .span4{
+    padding-top: 20px;
+  }
+
+}  /* max width 480px*/
+
+
+@media (max-width: 700px) {
+  #contact-btn {
+    width: 50%;
+  }
 }

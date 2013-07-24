@@ -18,11 +18,11 @@
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png"> -->
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
 
   <body>
@@ -35,7 +35,7 @@
           <h1 id="company-name">think602</h1>
           <p class='lead'>World Class Web and iOS Development</p>
         </div>
-        <a class="btn btn-large btn-success" data-toggle="tab" href="#contact">Contact Us</a>
+        <a id="contact-btn" class="btn btn-large btn-success" data-toggle="tab" href="#contact">Contact Us</a>
       </div>
 
       <div class="masthead">
@@ -57,65 +57,160 @@
       <div class="tab-content">
 
         <div class="tab-pane active" id="about">
-          <div class="row-fluid fluid-row-trim">
-            <div class="span4 span-padding">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+          <div class="row-fluid">
+
+            <div class="span4">
+              <h2>Communication</h2>
+
+              <p>We believe communication makes or breakes a project. We back
+                this up by touching base with clients every 10 hours to show
+                results and get feedback.</p>
+
+              <p>Sound too good to be true? We don't think so. We think this
+                is the way web development is supposed to happen.</p>
+
+              <br>
+              <div class="pagination-centered">
+                <div class="btn-group">
+                  <!-- <p><a class="btn" href="#process" data-toggle="tab">More About Process &raquo;</a></p> -->
+                </div>
+              </div>
             </div>
-            <div class="span4 span-padding">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+
+            <div class="span4">
+              <h2>Reaching Impact</h2>
+
+              <p>We want to work on projects that impact 1 million or more.</p>
+
+              <p>That's why we've personally invested in open source projects
+                that have huge impact. We've been involed with:
+                OpenCamp, Fog, RailsMN, Varkek, and Rails Guides.</p>
+
+              <br>
+              <div class="pagination-centered">
+                <div class="btn-group">
+                  <!-- <p><a class="btn" href="#meaningful-apps" data-toggle="tab">View Open Source Work &raquo;</a></p> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="span4">
+              <h2>World Class</h2>
+
+              <p>We want to work with mulitple clients on multiple projects
+                delivering world class web and mobile apps.</p>
+
+              <p>Why? We love creating beautiful and efficient app solutions.
+                It's more than a passion, we're addicted.</p>
+
+              <br>
+              <div class="pagination-centered">
+                <div class="btn-group">
+                  <p><a class="btn" href="#work" data-toggle="tab">View Work &raquo;</a></p>
+                </div>
+              </div>
            </div>
-            <div class="span4 span-padding">
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
-            </div>
+
           </div>
         </div> <!-- about -->
 
 
         <div id="services" class="tab-pane">
-          <div class="row-fluid fluid-row-trim">
-            <div class="span4 span-padding">
+          <div class="row-fluid">
+            <div class="span3 centered">
+              <h2>iOS Apps</h2>
+              <p>User Authentication</p>
+              <p>JSON API Requests</p>
+              <p>Multi Media UIX</p>
+              <p>Multi Threading</p>
+            </div>
+            <div class="span3 centered">
               <h2>Ruby on Rails</h2>
-              <p> See the work we've doen</p>
+              <p>Background Jobs</p>
+              <p>Custon Rails Engines</p>
+              <p>Spree / E-Commerce</p>
+              <p>Rails 1, 2, 3, 4</p>
             </div>
-            <div class="span4 span-padding">
-              <h2>Javascript and HTML Designs</h2>
-              <p></p>
+            <div class="span3 centered">
+              <h2>Frontend</h2>
+              <p>Javascript MVCs</p>
+              <p>Twitter Bootstrap</p>
+              <p>Responsive Design</p>
+              <p>Wizard Forms</p>
             </div>
-            <div class="span4 span-padding">
-              <h2>iPhone Development</h2>
-              <p>We've got these apps in the App Store</p>
+
+            <div class="span3 centered">
+              <h2>Infrastucture</h2>
+              <p>NGINX / Apache</p>
+              <p>MySQL / MongoDB</p>
+              <p>Email</p>
+              <p>Redis</p>
             </div>
+          </div>
+          <br>
+          <div class="row-fluid">
+            <div class="btn-toolbar pagination-centered">
+              <p><a id="services-view-work-btn" class="btn" href="#work" data-toggle="tab">View Work &raquo;</a></p>
+            </div>
+          </div>
+
+          <div id="process">
           </div>
         </div> <!-- services -->
 
 
         <div id="work" class="tab-pane">
-          <div  class="row-fluid fluid-row-trim">
-            <p>Windish Agency</p>
-            <p>FatPossum</p>
+          <div  class="row-fluid">
+            <p>Windish Agency (<a href="http://www.windishagency.com">www.windishagency.com</a>)</p>
+            <p>FatPossum (<a href="http://www.fatpossum.com">http://www.fatpossum.com</a>)</p>
+            <p>Babbit Creek (<a href="http://www.babbittcreek.com">www.babbittcreek.com</a>)</p>
+            <p>SA Gems (<a href="http://www.sagems.com">www.sagems.com</a>)</p>
+            <p>Questionnaire Rails Engine (<a href="http://www.github.com/twinge/questionnaire_engine/tree/engine">www.github.com/twinge/questionnaire_engine/tree/engine</a>)</p>
+            <p>Automating GoDaddy UI (<a href="http://https://github.com/westonplatter/nodaddy">https://github.com/westonplatter/nodaddy</a>)</p>
+            <p>Sam Skates (in progress)</a>
           </div>
         </div> <!-- work -->
 
         <div id="team" class="tab-pane">
-          <div class="people">
-            <div class="person">
-              <p>Weston</p>
+          <div  class="row-fluid people">
+
+            <div class="person span6">
+              <div class="picture">
+                <img src="images/profiles_weston_0.png"></img>
+              </div>
+              <div class="info">
+                <p>Weston Platter</p>
+                <p>Evil Genius Dropout</p>
+                <p>Mad skills with Ruby, Objective-C, and Javascript</p>
+                <p>
+                  <a href="mailto:weston@think602.com">email</a><br>
+                  <a href="http://twitter.com/westonplatter">twitter</a><br>
+                  <a href="http://github.com/westonplatter">github</a><br>
+                </p>
+              </div>
             </div>
-            <div class="person">
-              <p>Dustin</p>
+
+            <div class="person span6">
+              <div class="picture">
+                <img src="images/profiles_dustin_0.png"></img>
+              </div>
+              <div class="info">
+                <p>Dustin Platte</p>
+                <p>Pro McDonald's Aficionado</p>
+                <p>Wicked awesome frontend dev chops</p>
+                <p>
+                  <a href="mailto:dustin@think602.com">email</a>
+                </p>
+              </div>
             </div>
           </div>
         </div> <!-- team -->
 
         <div id="contact" class="tab-pane">
-          <p>Contact Us</p>
+          <br>
+          <p class="centered"><a href="mailto:hello@think602.com">hello@think602.com</a></p>
         </div>
+
       </div> <!-- contact -->
 
 
