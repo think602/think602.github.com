@@ -87,16 +87,11 @@ h2 {
   padding: 14px 24px;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 60px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-
 /* Customize the navbar links to be fill the entire space of the .navbar */
+.navbar {
+  margin-bottom: 30px;
+}
+
 .navbar .navbar-inner {
   padding: 0;
 }
@@ -132,7 +127,7 @@ h2 {
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 70px !important;
   }
 
   h2 {
@@ -161,8 +156,9 @@ h2 {
     font-size: 11px;
   }
 
-  .span4{
-    padding-top: 20px;
+  .navbar {
+    margin-left: -3%;
+    margin-right: -3%;
   }
 
 }  /* max width 480px*/
