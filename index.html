@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,15 +7,13 @@
     <meta name="description" content="">
     <meta name="author" content="think602">
 
-    <link href="stylesheets/bootstrap.min.css"            rel="stylesheet">
-    <link href="stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="stylesheets/think602.css"                 rel="stylesheet">
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/think602.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!-- [if lt IE 9]> -->
       <script src="javascripts/html5shiv.js"></script>
-    <![endif]
-
+    <!-- [endif] -->
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
   </head>
@@ -31,7 +28,7 @@
           <h1 id="company-name">think602</h1>
           <p class='lead'>Exceptional Web and iOS Development</p>
         </div>
-        <a id="contact-btn" class="btn btn-large btn-success" data-toggle="tab" href="#contact">Contact Us</a>
+        <a id="contact-btn" class="btn btn-lg btn-success" data-toggle="tab" href="#contact">Contact Us</a>
       </div>
 
       <div class="masthead">
@@ -53,9 +50,9 @@
       <div class="tab-content">
 
         <div class="tab-pane active" id="about">
-          <div class="row-fluid">
+          <div class="row">
 
-            <div class="span4">
+            <div class="col-md-4">
               <h2>Communication</h2>
 
               <p>We believe communication makes or breakes a project. We back
@@ -73,7 +70,7 @@
               </div>
             </div>
 
-            <div class="span4">
+            <div class="col-md-4">
               <h2>Impact</h2>
 
               <p>We want to work on projects that impact 1 million people or more.</p>
@@ -95,7 +92,7 @@
               </div>
             </div>
 
-            <div class="span4">
+            <div class="col-md-4">
               <h2>Exceptional</h2>
 
               <p>We want to work with mulitple clients on multiple projects
@@ -119,22 +116,22 @@
 
 
         <div id="services" class="tab-pane">
-          <div class="row-fluid">
-            <div class="span3 centered">
+          <div class="row">
+            <div class="col-md-3 centered">
               <h2>iOS Apps</h2>
               <p>User Authentication</p>
               <p>JSON API Requests</p>
               <p>Multi Media UIX</p>
               <p>Multi Threading</p>
             </div>
-            <div class="span3 centered">
+            <div class="col-md-3 centered">
               <h2>Ruby on Rails</h2>
               <p>Background Jobs</p>
               <p>Custon Rails Engines</p>
               <p>Spree / E-Commerce</p>
               <p>Rails 1, 2, 3, 4</p>
             </div>
-            <div class="span3 centered">
+            <div class="col-md-3 centered">
               <h2>Frontend</h2>
               <p>Javascript MVCs</p>
               <p>Twitter Bootstrap</p>
@@ -142,7 +139,7 @@
               <p>Wizard Forms</p>
             </div>
 
-            <div class="span3 centered">
+            <div class="col-md-3 centered">
               <h2>Infrastucture</h2>
               <p>NGINX / Apache</p>
               <p>MySQL / MongoDB</p>
@@ -151,9 +148,9 @@
             </div>
           </div>
           <br>
-          <div class="row-fluid">
+          <div class="row">
             <div class="btn-toolbar pagination-centered">
-              <p><a id="services-view-work-btn" class="btn" href="#work" data-toggle="tab">View Work &raquo;</a></p>
+              <p><a id="services-view-work-btn" class="btn btn-lg btn-default" href="#work" data-toggle="tab">View Work</a></p>
             </div>
           </div>
 
@@ -163,7 +160,7 @@
 
 
         <div id="work" class="tab-pane">
-          <div  class="row-fluid">
+          <div  class="row">
             <p>Windish Agency (<a href="http://www.windishagency.com">www.windishagency.com</a>)</p>
             <p>FatPossum (<a href="http://www.fatpossum.com">http://www.fatpossum.com</a>)</p>
             <p>Babbitt Creek (<a href="http://www.babbittcreek.com">www.babbittcreek.com</a>)</p>
@@ -175,11 +172,11 @@
         </div> <!-- work -->
 
         <div id="team" class="tab-pane">
-          <div  class="row-fluid people">
+          <div  class="row people">
 
-            <div class="person span6">
+            <div class="col-md-6 person">
               <div class="picture">
-                <img src="images/profiles_weston_0.png"></img>
+                <img class="img-thumbnail" src="images/profiles_weston_0.png"></img>
               </div>
               <div class="info">
                 <p>Weston Platter</p>
@@ -187,22 +184,23 @@
                 <p>Mad skills with Ruby, Objective-C, and Javascript</p>
                 <p>
                   <a href="mailto:weston@think602.com">email</a><br>
-                  <a href="http://twitter.com/westonplatter">twitter</a><br>
+                  <a href="http://twitter.com/westonplatter">@westonplatter</a><br>
                   <a href="http://github.com/westonplatter">github</a><br>
                 </p>
               </div>
             </div>
 
-            <div class="person span6">
+            <div class="col-md-6 person">
               <div class="picture">
-                <img src="images/profiles_dustin_0.png"></img>
+                <img class="img-thumbnail" src="images/profiles_dustin_0.png"></img>
               </div>
               <div class="info">
                 <p>Dustin Platte</p>
                 <p>Pro McDonald's Aficionado</p>
                 <p>Wicked awesome frontend dev chops</p>
                 <p>
-                  <a href="mailto:dustin@think602.com">email</a>
+                  <a href="mailto:dustin@think602.com">email</a><br>
+                  <a href="https://twitter.com/dustinplatte">@dustinplatte</a>
                 </p>
               </div>
             </div>
@@ -226,7 +224,7 @@
     </div> <!-- /container -->
 
     <!--  javascript placed at the end of the document so the pages load faster -->
-    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/jquery.min.js"></script>
     <script src="javascripts/bootstrap.min.js"></script>
     <script src="javascripts/think602.js"></script>
 
