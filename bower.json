@@ -1,0 +1,22 @@
+{
+  "name": "think602.github.com",
+  "version": "0.0.1",
+  "homepage": "https://github.com/think602/think602.github.com",
+  "authors": [
+    "Weston Platter <westonplatter@gmail.com>"
+  ],
+  "description": "think602 site",
+  "main": "index.html",
+  "license": "BSD-3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.2"
+  }
+}
